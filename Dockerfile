@@ -1,4 +1,4 @@
-FROM golang:1.18.2@sha256:800d9b4fb6231053473df14d5a7116bfd33500bca5ca4c6d544de739d9a7d302
+FROM golang:1.21.1@sha256:5ab8f83c0b697ebfaaf8fcd073d24f74e0b4746add797fa60be5fb9f362cb9a3
 
 RUN curl -L https://sourcegraph.com/.api/src-cli/src_linux_amd64 -o /usr/bin/src && chmod +x /usr/bin/src
 
